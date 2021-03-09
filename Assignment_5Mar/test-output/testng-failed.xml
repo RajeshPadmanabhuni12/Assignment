@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.testscript.TC01_WebSiteLaunch_ToolsQA_Test">
+        <methods>
+          <include name="TestInteractionsTab"/>
+          <include name="beforeSuite"/>
+          <include name="configure"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testscript.TC01_WebSiteLaunch_ToolsQA_Test -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
